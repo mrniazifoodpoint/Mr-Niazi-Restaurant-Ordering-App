@@ -1,0 +1,9 @@
+{
+  "name": "Mr. Niazi Ordering App",
+  "short_name": "Niazi App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}
