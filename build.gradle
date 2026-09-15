@@ -1,0 +1,9 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+android { namespace "com.mrniazi.app"; compileSdk flutter.compileSdkVersion
+    defaultConfig { applicationId "com.mrniazi.app"; minSdk 23; targetSdk flutter.targetSdkVersion; versionCode flutterVersionCode.toInteger(); versionName flutterVersionName }
+}
+flutter { source "../.." }
